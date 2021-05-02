@@ -501,4 +501,27 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Anzahl der Benachrichtigungen</string>
     <string name="status_bar_notif_count_summary">Zeigen Sie die Anzahl der ausstehenden Benachrichtigungen an</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">Sekunden</string>
+    <string name="unit_milliseconds">Millisekunden</string>
+
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Benachrichtigungstickerstil in Statusleiste anzeigen</string>
+    <string name="ticker_screen_footer">Der Ticker ist nur sichtbar, wenn die Heads-up-Benachrichtigung nicht angezeigt wird. Geräte mit Notch sollten den Ausschnitt unter den Einstellungen der Benutzeroberfläche oder unter den Entwickleroptionen ausblenden.</string>
+    <string name="ticker_title">Statusleisten-Benachrichtigungsticker</string>
+    <string name="ticker_summary">Statusleisten-Benachrichtigungsticker einschalten</string>
+    <string name="ticker_restore_defaults_title">Standardeinstellungen wiederherstellen</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Symbol</string>
+    <string name="colors_title">Farben</string>
+    <string name="values_restored_title">Werte wiederhergestellt</string>
+    <string name="ticker_disabled">Kein Ticker</string>
+    <string name="ticker_enabled">Benachrichtigungsticker</string>
+    <string name="ticker_media_enabled">Benachrichtigungs- und Musikticker</string>
+    <string name="ticker_animation_mode_title">Ticker-Animationsstil</string>
+    <string name="ticker_animation_mode_alpha_fade">Verblassen</string>
+    <string name="ticker_animation_mode_scroll">Scrollen</string>
+    <string name="ticker_tick_duration_title">Tickerdauer</string>
 </resources>
