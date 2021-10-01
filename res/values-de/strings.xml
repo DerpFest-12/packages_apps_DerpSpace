@@ -748,4 +748,8 @@
     <string name="fp_wake_unlock_title">Aufwachen und Entsperren per Fingerabdruck</string>
     <string name="fp_wake_unlock_summary">Fingerabdrücke erkennen, wenn der Bildschirm ausgeschaltet ist</string>
 
+    <!-- Colorful battery icon -->
+    <string name="battery_level_colors_title">Buntes Batteriesymbol aktivieren</string>
+    <string name="battery_level_colors_summary">Jeder Batteriestandsabfall ist farbcodiert</string>
+
 </resources>
