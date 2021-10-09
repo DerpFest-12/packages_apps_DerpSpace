@@ -39,6 +39,12 @@
         <ListPreference
             android:key="android.theme.customization.signal_icon"
             android:title="@string/custom_signal_bar_title"/>
+
+        <Preference
+            android:key="rounded_corners"
+            android:title="@string/statusbar_padding"
+            android:summary="@string/statusbar_padding_summary"
+            android:fragment="org.derpfest.derpspace.fragments.RoundedCorners" />
     </PreferenceCategory>
 
     <PreferenceCategory

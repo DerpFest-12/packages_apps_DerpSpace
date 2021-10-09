@@ -46,7 +46,6 @@
     <string name="listview">ListView</string>
     <string name="light_category">Lights</string>
     <string name="udfps_category">Fingerprint On Display</string>
-    <string name="statusbar_padding">Statusbar Padding</string>
 
     <!-- Frags -->
     <!-- General Tweaks -->
@@ -535,6 +534,8 @@
     <string name="navigation_bar_layout_summary">Customize the layout of the navigation bar</string>
 
     <!-- Statusbar left_right padding -->
+    <string name="statusbar_padding">Statusbar Padding</string>
+    <string name="statusbar_padding_summary">Adjust Statusbar left or right padding</string>
     <string name="statusbar_left_padding">Statusbar left padding</string>
     <string name="statusbar_right_padding">Statusbar right padding</string>
 </resources>
