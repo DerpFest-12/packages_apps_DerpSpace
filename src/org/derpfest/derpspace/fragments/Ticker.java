@@ -38,8 +38,8 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.derp.support.preferences.CustomSeekBarPreference;
-import com.derp.support.preferences.SystemSettingListPreference;
+import com.derp.support.preferences.CustomSecureSeekBarPreference;
+import com.derp.support.preferences.SecureSettingListPreference;
 
 public class Ticker extends SettingsPreferenceFragment {
 
