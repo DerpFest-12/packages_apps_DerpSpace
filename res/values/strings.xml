@@ -621,7 +621,6 @@
 
     <!-- QS Clock picker -->
     <string name="qsclockpicker_title">QS Clock Picker (Requires a SystemUI restart)</string>
-    <string name="qsclockpicker_def">AOSP (default)</string>
-    <string name="qsclockpicker_img">Image clock</string>
-    <string name="qsclockpicker_big">Big clock</string>
+    <string name="qsclockpicker_img">Clock 1</string>
+    <string name="qsclockpicker_big">Clock 2</string>
 </resources>

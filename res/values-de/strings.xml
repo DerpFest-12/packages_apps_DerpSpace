@@ -614,7 +614,6 @@
 
     <!-- QS Clock picker -->
     <string name="qsclockpicker_title">Uhr in den Schnelleinstellungen (Erfordert einen Neustart der SystemUI)</string>
-    <string name="qsclockpicker_def">AOSP (Standard)</string>
-    <string name="qsclockpicker_img">Bilduhr</string>
-    <string name="qsclockpicker_big">Große Uhr</string>
+    <string name="qsclockpicker_img">Uhr 1</string>
+    <string name="qsclockpicker_big">Uhr 2</string>
 </resources>
