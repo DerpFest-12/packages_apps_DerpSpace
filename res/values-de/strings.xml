@@ -513,9 +513,6 @@
     <string name="ticker_title">Statusleisten-Benachrichtigungsticker</string>
     <string name="ticker_summary">Statusleisten-Benachrichtigungsticker einschalten</string>
     <string name="ticker_restore_defaults_title">Standardeinstellungen wiederherstellen</string>
-    <string name="text_title">Text</string>
-    <string name="icon_title">Symbol</string>
-    <string name="colors_title">Farben</string>
     <string name="values_restored_title">Werte wiederhergestellt</string>
     <string name="ticker_disabled">Kein Ticker</string>
     <string name="ticker_enabled">Benachrichtigungsticker</string>
