@@ -514,8 +514,6 @@
     <string name="show_navbar_pulse_summary">Audiovisualisierung beim Abspielen von Musik in der Navigationsleiste anzeigen</string>
     <string name="show_lockscreen_pulse_title">Pulse für Sperrbildschirm</string>
     <string name="show_lockscreen_pulse_summary">Audiovisualisierung beim Abspielen von Musik auf dem Sperrbildschirm anzeigen</string>
-    <string name="show_qs_pulse_title">Pulse für Schnelleinstellungen</string>
-    <string name="show_qs_pulse_summary">Audiovisualisierung beim Abspielen von Musik in den Schnelleinstellungen anzeigen</string>
     <string name="show_ambient_pulse_title">Pulse für Ambient Screen</string>
     <string name="show_ambient_pulse_summary">Audiovisualisierung beim Abspielen von Musik auf dem Ambient Screen anzeigen</string>
     <string name="pulse_render_mode_title">Rendermodus</string>
