@@ -509,7 +509,7 @@
     <string name="pulse_help_policy_notice_title">Über Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse ist eine brillante Audiovisualisierung, wenn Musik auf dem Gerät abgespielt wird</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audiovisualisierung für Navigationsleiste, Sperrbildschirm, Ambient Screen und Schnelleinstellungen</string>
+    <string name="pulse_settings_summary">Audiovisualisierung für Navigationsleiste, Sperrbildschirm und Ambient Screen</string>
     <string name="show_navbar_pulse_title">Pulse für Navigationsleiste</string>
     <string name="show_navbar_pulse_summary">Audiovisualisierung beim Abspielen von Musik in der Navigationsleiste anzeigen</string>
     <string name="show_lockscreen_pulse_title">Pulse für Sperrbildschirm</string>

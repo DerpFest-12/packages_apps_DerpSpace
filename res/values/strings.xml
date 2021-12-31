@@ -526,7 +526,7 @@
     <string name="pulse_help_policy_notice_title">About Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio visualizer when music plays on the device</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio visualizer for navigation bar, lockscreen, ambient screen and qs panel</string>
+    <string name="pulse_settings_summary">Audio visualizer for navigation bar, lockscreen and ambient screen</string>
     <string name="show_navbar_pulse_title">Navbar Pulse</string>
     <string name="show_navbar_pulse_summary">Audio visualizer on the navigation bar</string>
     <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
