@@ -623,7 +623,9 @@
     <string name="qsclockpicker_title">QS Clock Picker (Requires a SystemUI restart)</string>
     <string name="qsclockpicker_img">Clock 1</string>
     <string name="qsclockpicker_big">Clock 2</string>
-    <string name="qsclockpicker_new">Custom Clock 1</string>
-    <string name="qsclockpicker_new1">Custom Clock 2</string>
+    <string name="qsclockpicker_imgnew">Clock3</string>
+    <string name="qsclockpicker_oos">OOS</string>
     <string name="qsclockpicker_interactive_1">Interactive Clock 1</string>
+    <string name="qsclockpicker_aosp">AOSP Clock</string>
+    <string name="qsclockpicker_coloros">ColorOS</string>
 </resources>
