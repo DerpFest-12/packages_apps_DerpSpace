@@ -78,6 +78,9 @@
     <!-- Quick Settings -->
     <string name="quick_settings_title">Quick Settings</string>
 
+    <!-- Quick Settings footer category -->
+    <string name="footer_category">Footer</string>
+
     <!-- Statusbar Iten -->
     <string name="statusbar_items_category">Statusbar Items</string>
 
@@ -603,5 +606,12 @@
     <string name="ambient_pulse_title">Ambient Pulse</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+
+    <!-- Qs Column Settings -->
+    <string name="qs_columns_cat">QS Column Menu</string>
+    <string name="qs_columns_portrait_title">QS Columns in Portrait</string>
+    <string name="qs_columns_landscape_title">QS Columns in Landscape</string>
+    <string name="qs_tile_vertical_layout_title">QS Vertical Layout</string>
+    <string name="qs_tile_vertical_layout_summary">Enable-disable tile vertical layout</string>
 
 </resources>
