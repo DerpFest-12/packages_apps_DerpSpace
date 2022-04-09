@@ -737,4 +737,8 @@
     <string name="headset_connect_player_title">Musik-App Bei Kopfhöreranschluß starten</string>
     <string name="headset_connect_player_summary">Beim Verbinden eines Kopfhörers die Standard-Musik-App starten</string>
 
+    <!-- Fingerprint wake and unlock -->
+    <string name="fp_wake_unlock_title">Aufwachen und Entsperren per Fingerabdruck</string>
+    <string name="fp_wake_unlock_summary">Fingerabdrücke erkennen, wenn der Bildschirm ausgeschaltet ist</string>
+
 </resources>

@@ -73,6 +73,7 @@ import com.derp.support.preferences.SystemSettingListPreference;
 @SearchIndexable
 public class LockscreenUI extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
+    private static final String KEY_FP_WAKE_UNLOCK = "fp_wake_unlock";
     private static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
     private static final String FINGERPRINT_ERROR_VIB = "fingerprint_error_vib";
     private static final String FOD_NIGHT_LIGHT = "fod_night_light";
@@ -84,6 +85,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
     private static final String LOCKSCREEN_BATTERY_INFO_TEMP_UNIT = "lockscreen_charge_temp_unit";
 
     private FingerprintManager mFingerprintManager;
+    private SystemSettingSwitchPreference mFingerprintWakeUnlock;
     private SystemSettingSwitchPreference mFingerprintSuccessVib;
     private SystemSettingSwitchPreference mFingerprintErrorVib;
     private SystemSettingSwitchPreference mFodNightLight;
@@ -105,6 +107,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         final PackageManager mPm = getActivity().getPackageManager();
         final PreferenceCategory fpCategory = (PreferenceCategory)
                 findPreference("lockscreen_ui_finterprint_category");
+        mFingerprintWakeUnlock = (SystemSettingSwitchPreference) findPreference(KEY_FP_WAKE_UNLOCK);
 
         int unitMode = Settings.System.getIntForUser(resolver,
                 Settings.System.LOCKSCREEN_BATTERY_INFO_TEMP_UNIT, 0, UserHandle.USER_CURRENT);
@@ -122,6 +125,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mScreenOffFOD = findPreference(SCREEN_OFF_FOD);
         mUdfpsHapticFeedback = findPreference(ENABLE_UDFPS_START_HAPTIC_FEEDBACK);
 
+        if (!mFingerprintManager.isPowerbuttonFps()) {
+            prefSet.removePreference(mFingerprintWakeUnlock);
+        } else {
+            boolean fpWakeUnlockEnabledDef = getContext().getResources().getBoolean(
+                    com.android.internal.R.bool.config_fingerprintWakeAndUnlock);
+            boolean fpWakeUnlockEnabled = Settings.System.getIntForUser(
+                    getContext().getContentResolver(), Settings.System.FP_WAKE_UNLOCK,
+                    fpWakeUnlockEnabledDef ? 1 : 0, UserHandle.USER_CURRENT) != 0;
+            mFingerprintWakeUnlock.setChecked(fpWakeUnlockEnabled);
+        }
 
         if (mPm.hasSystemFeature(PackageManager.FEATURE_FINGERPRINT) &&
                  mFingerprintManager != null) {
