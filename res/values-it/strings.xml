@@ -762,4 +762,7 @@
     <string name="qs_footer_datausage_title">Utilizzo dei dati</string>
     <string name="qs_footer_datausage_summary">Visualizza il riepilogo dell\'utilizzo dei dati nel riquadro delle impostazioni rapide</string>
 
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Mostra l\'icona del tipo di Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Mostra il tipo di Wi-Fi nell\'indicatore del segnale Wi-Fi</string>
 </resources>
