@@ -739,4 +739,8 @@
     <string name="show_wifi_standard_icon_title">Show Wi-Fi type icon</string>
     <string name="show_wifi_standard_icon_summary">Show Wi-Fi type in Wi-Fi signal indicator</string>
 
+    <!-- Tint -->
+    <string name="system_tint_theme_title">Use tint</string>
+    <string name="system_tint_theme_summary">Use tint to get more vivid colors</string>
+
 </resources>

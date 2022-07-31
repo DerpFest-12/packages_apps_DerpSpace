@@ -725,4 +725,8 @@
     <string name="show_wifi_standard_icon_title">WLAN-Typ-Symbol anzeigen</string>
     <string name="show_wifi_standard_icon_summary">WLAN-Typ in der WLAN-Signalanzeige anzeigen</string>
 
+    <!-- Tint -->
+    <string name="system_tint_theme_title">Färbung verwenden</string>
+    <string name="system_tint_theme_summary">Verwenden um lebendigere Farben zu erhalten</string>
+
 </resources>
