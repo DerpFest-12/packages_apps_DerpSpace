@@ -541,6 +541,7 @@
     <string name="media_artwork_enabled_summary">Imposta la copertina dei multimediale come sfondo delle notiche media</string>
     <string name="media_artwork_blur_enabled_title">Sfondo copertina multimediale sfocato</string>
     <string name="media_artwork_blur_radius_title">Quantità sfocatura copertina multimediale</string>
+    <string name="media_artwork_fade_percent_title">Quantità di dissolvenza della grafica multimediale</string>																						  
 
     <string name="ambient_ui">Ambient/Always on display</string>
     <string name="ambient_battery_title">Ambient battery</string>
@@ -701,14 +702,20 @@
     <string name="lockscreen_charge_temp_unit_farhenheit">Fahrenheit</string>
     <string name="lockscreen_charge_temp_unit_celsius">Celsius</string>
 
-    <!-- reTicker -->
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Titolo della traccia nel riquadro musicale</string>
+    <string name="qs_music_tile_track_optional_summary">Mostra il titolo del brano musicale come titolo del riquadro delle impostazioni rapide</string>												 
+	<!-- reTicker -->
     <string name="reticker_title">reTicker</string>
     <string name="reticker_summary">Sostituisci le tue notifiche con una versione riprogettata di ticker. Sottile e meno invasivo di una notifica standard</string>
     <string name="reticker_colored_title">Usa lo sfondo colorato dell\'app</string>
     <string name="reticker_colored_summary">Sostituisci il colore di sfondo di reTicker usando il colore principale dell\'app di notifica</string>
     <string name="reticker_landscape_only_title">Solo modalità orizzontale</string>
     <string name="reticker_landscape_only_summary">Abilita reTicker solo quando il dispositivo è in modalità orizzontale</string>
-
+<!-- Wp zoom -->
+    <string name="use_wp_zoom_title">Abilita lo zoom dello sfondo</string>
+    <string name="use_wp_zoom_summary">Richiede un riavvio!</string>
+																				  																   
     <string name="media_artwork_force_expand_title">Forza estensione</string>
     <string name="media_artwork_force_expand_summary">Imposta lettore multimediale QS esteso</string>
 
